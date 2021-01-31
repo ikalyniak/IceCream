@@ -156,10 +156,6 @@ body {
   background-color: var(--bg-header-hero);
 }
 
-.hero .container.bg {
-  background-image: ;
-}
-
 .hero .container {
   background-image: url(../images/bg/ecomilk.png),
     url(../images/bg/girl-with-ice-cream.png);
