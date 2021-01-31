@@ -1,0 +1,149 @@
+:root {
+  --text-main: "DM Sans", sans-serif;
+  --text-secondary: "Titan One", cursive;
+
+  --color-design-main: #d41443;
+  --color-design-white: #ffffff;
+  --color-design-black: 000000;
+  --color-subtitle: #ffa5ba;
+  --color-description: #907e82;
+
+  --bg-section: #fff5f6;
+  --bg-btn-dark: #d41443;
+  --bg-btn-dark-hover: #c7133e;
+  --bg-btn-light: #ffffff;
+  --bg-btn-light-hover: #ecebeb;
+  --bg-quote: #fafafa;
+  --bg-social: #fea5bb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: var(--text-main);
+  color: var(--color-design-main);
+}
+
+/* ========== COMPONENTS ========== */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn {
+  background-color: var(--bg-btn-light);
+  border: 0;
+  border-radius: 22px;
+  cursor: pointer;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #d41443;
+}
+/* ========== END COMPONENTS ========== */
+
+/* ========== HEADER ========== */
+.header {
+  background-color: #ffb8ca;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  /* margin-top: 17px; */
+  margin-left: 45px;
+  margin-right: 110px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.nav-link {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.313;
+
+  color: var(--color-design-white);
+}
+
+.nav-link.current {
+  color: var(--color-design-main);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-design-main);
+}
+
+.header .btn {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 116px;
+  padding: 12px 37px;
+}
+
+.header .btn::after {
+  display: inline-block;
+  content: ">";
+  font-size:: 8px;
+  margin-left: 12px;
+}
+
+.header .btn:hover,
+.header .btn:focus {
+  background-color: var(--bg-btn-light-hover);
+}
+/* ========== END HEADER ========== */
