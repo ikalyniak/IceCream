@@ -75,6 +75,7 @@ body {
 
 /* ========== HEADER ========== */
 .header {
+  width: 100%;
   position: absolute;
   z-index: 10;
   /* background-color: var(--bg-header-hero); */
