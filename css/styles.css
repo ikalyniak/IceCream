@@ -254,6 +254,27 @@ body {
   background-color: var(--bg-btn-light-hover);
 }
 
+.box-hero-img {
+  position: relative;
+}
+
+.box-hero-img::before {
+  position: absolute;
+  top: -56px;
+  left: -119px;
+
+  content: "";
+  display: block;
+  width: 538px;
+  height: 538px;
+  border-radius: 50%;
+  background-color: var(--color-subtitle);
+}
+
+.hero-img {
+  position: relative;
+}
+
 .achievement-list {
   margin-top: 78px;
   margin-right: 116px;
